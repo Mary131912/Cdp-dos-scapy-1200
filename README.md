@@ -1,11 +1,11 @@
-# 🟥 REPOSITORIO 1
+# REPOSITORIO 1
 
-# 📘 CDP DoS Attack – Scapy
+# CDP DoS Attack – Scapy
 
-## 📌 Autor
+## Autor
 
 **Mariana Doñe Lara**  
-**Matrícula:** 12.0
+**Matrícula:** 20241200
 
 ---
 
@@ -45,13 +45,13 @@ El objetivo del script es **inundar el switch con paquetes CDP falsificados**, g
 - Switch: Puerto Ethernet conectado al host atacante
     
 
-📌 El host atacante se encuentra conectado directamente al switch.
+El host atacante se encuentra conectado directamente al switch.
 
 ---
 
 ## 4️⃣ Script utilizado
 
-📁 **Archivo:** `cdp_dos.py`
+**Archivo:** `cdp_dos.py`
 
 from scapy.all import Ether, LLC, SNAP, Raw, sendp, RandMAC
 import struct
@@ -138,11 +138,6 @@ Las capturas incluidas evidencian:
     
 - Saturación de la tabla CDP del switch
     
-
-📸 Carpeta: `/screenshots`
-
----
-
 ## 7️⃣ Requisitos
 
 - Kali Linux
